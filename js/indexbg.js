@@ -1,0 +1,1 @@
+document.addEventListener("scroll",(()=>{const o=document.querySelector(".site-info-bg");if(!o)return;const e=window.scrollY||document.documentElement.scrollTop||document.body.scrollTop,t=Math.min(e/window.innerHeight,1),n=12*t;o.style.opacity=1-t,o.style.filter=`blur(${n}px)`})),target.scrollIntoView({behavior:"smooth"});
